@@ -145,9 +145,9 @@ HTMLWidgets.widget({
         node.append("image")
             .attr("xlink:href", function(n){
                 if(n && n.icon){
-                    return 'lib/forcenetworktpm-1.1.1/' + n.icon;
+                    return 'https://raw.githubusercontent.com/syrys-jwt/forcenetworktpm/master/assets/' + n.icon;
                 }else{
-                    return 'lib/forcenetworktpm-1.1.1/1.png';
+                    return 'https://raw.githubusercontent.com/syrys-jwt/forcenetworktpm/master/assets/1.png';
                 }
             })
             .attr("x", -8)
