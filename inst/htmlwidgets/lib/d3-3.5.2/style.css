@@ -1,0 +1,11 @@
+body{
+    /*background: red !important;*/
+    background: url('1.png');
+}
+
+.node-circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}

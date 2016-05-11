@@ -1,0 +1,9 @@
+dependencies:
+  - name: forcenetworktpm
+    version: 1.1.1
+    src: "htmlwidgets/lib/d3-3.5.2"
+    script: d3.min.js
+    stylesheet: style.css
+    attachment:
+      - 1.png
+      - 2.png
