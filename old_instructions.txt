@@ -1,0 +1,19 @@
+Dont use tehese instructions as they are old.
+
+
+## Install and Save/Publish
+````
+devtools::install()
+library(forcenetworktpm)
+#following will set the graph details to the variable myGraph
+myGraph <- forcenetworktpm(Links = MisLinks, Nodes = MisNodes,
+             Source = "source", Target = "target",
+             Value = "value", NodeID = "name",
+             Group = "group", opacity = 0.8)
+
+setwd("builds")
+#edit the my_widge_name below to a name you would like, this will create the widget in the builds folder.
+saveWidget(myGraph, file = "my_widget_name.html", selfcontained = FALSE)
+setwd('..');
+
+````
