@@ -1,4 +1,10 @@
 # forcenetworktpm
+##Dependancies
+Install the following packages:
+````
+devtools
+````
+
 ## Setup
 
 First install NetworkD3 and its dependancies. Test if you can get networkD3 examples to work: http://christophergandrud.github.io/networkD3/
